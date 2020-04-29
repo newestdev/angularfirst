@@ -12,6 +12,6 @@ export class CategoryListPage implements PipeTransform{
                 categories.push(mediaItem.category);
             }
         });
-        return categories.join(', ');
+        return categories;
     }
 }
