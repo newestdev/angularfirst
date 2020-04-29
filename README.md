@@ -1,26 +1,3 @@
-# Angular Essential Training
-
-This is the repository for my course **Angular Essential Training**  
-The full course is available at [LinkedIn Learning](https://www.linkedin.com/learning) and [lynda.com](https://lynda.com).  
-[LinkedIn Learning subscribers: watch here](https://www.linkedin.com/learning/angular-2-essential-training-2)  
-[Lynda.com subscribers: watch here](https://www.lynda.com/AngularJS-tutorials/Angular-2-Essential-Training/540347-2.html)  
-
-
-## Course Description
-
-JavaScript frameworks help you code more quickly, by providing special functionality for developing specific types of web projects. Angular was designed by Google to address challenges programmers face building single-page applications. This course introduces you to the essentials of this "superheroic" framework, including declarative templates, two-way data binding, and dependency injection. Justin Schwartzenberger steps through the framework one feature at a time, focusing on the new component-based architecture of Angular. After completing this training, you'll be able to tackle the other project-based courses in our library and create your own Angular app.
-
-Topics include:
-- What is Angular?
-- Setting up an Angular template
-- Creating a component
-- Displaying data
-- Working with events
-- Using two-way data binding
-- Creating a subcomponent
-- Using the built-in HTTP module
-- Using the built-in router module
-
 ## Instructions
 
 1. Make sure you have these installed
@@ -67,7 +44,3 @@ If you are getting a list of errors on `npm install` that look like `Cannot find
 }
 ```
 If the caret is there (would look like `"@types/core-js": "^0.9.34"`) then remove it (or copy the contents of the [package.json](https://github.com/coursefiles/angular2-essential-training/blob/master/package.json) file on the origin repository) and run `npm install` again.
-  
-## More Stuff
-Check out some of my [other courses on LinkedIn Learning](https://www.linkedin.com/learning/instructors/justin-schwartzenberger?u=2125562). 
-You can also [follow me on twitter](https://twitter.com/schwarty).
