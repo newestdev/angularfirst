@@ -9,6 +9,7 @@ import {CategoryListPage} from './category-list.pipe';
 import {lookupValueToken,lookupvalue} from './providers';
 import {MockXHRBackend} from './mock-xhr-backend';
 import {routing} from './app.routing';
+import {CategoryListComponent} from './category-list.component';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import {routing} from './app.routing';
         BrowserModule,HttpClientModule,routing
     ],
     declarations:[
-        AppComponent,MediaItemComponent,MediaItemListComponent,favoriteDirective,CategoryListPage
+        AppComponent,MediaItemComponent,MediaItemListComponent,favoriteDirective,CategoryListPage,CategoryListComponent
         
     ],
     bootstrap:[
